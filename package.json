@@ -1,0 +1,50 @@
+{
+  "name": "cordova-node-api",
+  "main": "main.js",
+  "version": "0.0.2",
+  "scripts": {
+    "test": "mocha --reporter spec --timeout 60s --recursive test/*.js",
+    "debug-test": "mocha --debug-brk --reporter spec --timeout 60s test/*.js"
+  },
+  "dependencies": {
+    "cordova": "5.3.3",
+    "bluebird": "^2.9.4",
+    "fs-extra": "0.23.1"
+  },
+  "devDependencies": {
+    "mocha": "2.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qlqllu/cordova-node-api.git"
+  },
+  "license": "MIT",
+  "gitHead": "fec9e09368e46606b0da1e9a3364750281fe49c9",
+  "description": "Make you use cordova much easier in node.js",
+  "bugs": {
+    "url": "https://github.com/qlqllu/cordova-node-api/issues"
+  },
+  "homepage": "https://github.com/qlqllu/cordova-node-api#readme",
+  "_id": "cordova-node-api@0.0.2",
+  "_shasum": "eee520822686d56aaad4520478790068176927e3",
+  "_from": "cordova-node-api@0.0.2",
+  "_npmVersion": "2.11.2",
+  "_nodeVersion": "0.12.5",
+  "_npmUser": {
+    "name": "qlqllu",
+    "email": "qlqllu@126.com"
+  },
+  "dist": {
+    "shasum": "eee520822686d56aaad4520478790068176927e3",
+    "tarball": "http://registry.npmjs.org/cordova-node-api/-/cordova-node-api-0.0.2.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "qlqllu",
+      "email": "qlqllu@126.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/cordova-node-api/-/cordova-node-api-0.0.2.tgz",
+  "readme": "ERROR: No README data found!"
+}

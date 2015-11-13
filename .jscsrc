@@ -1,0 +1,70 @@
+//reference: https://github.com/jshint/jshint/blob/master/.jscsrc
+//http://jscs.info
+{
+  "maxErrors": 50,
+  //https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml
+  //"preset": "google",
+
+  //Requires operators to appear before line breaks and not after. JSHint: laxbreak
+  "requireOperatorBeforeLineBreak": true,
+
+  "maximumLineLength": {      //JSHint: maxlen
+    "value": 100,             //lines should be at most the number of characters specified
+    "allowComments": true,    //allows comments to break the rule
+    "allowRegex": true        //allows regular expression literals to break the rule
+  },
+  //Validates indentation for switch statements and block statements. JSHint: indent
+  "validateIndentation": 2,
+
+  //Disallows strings that span multiple lines without using concatenation. JSHint: multistr
+  "disallowMultipleLineStrings": true,
+
+  //Requires lines to not contain both spaces and tabs consecutively
+  "disallowMixedSpacesAndTabs": true,
+
+  //Requires all lines to end on a non-whitespace character. JSHint: trailing
+  "disallowTrailingWhitespace": true,
+
+  //Requires sticking unary operators to the right
+  //"disallowSpaceAfterPrefixUnaryOperators": true,
+
+  //Requires sticking unary operators to the left.
+  //"disallowSpaceBeforePostfixUnaryOperators": true,
+
+  "requireSpaceAfterKeywords": [
+    "return"
+  ],
+
+  //Disallows sticking binary operators to the left.
+  "requireSpaceBeforeBinaryOperators": true,
+
+  //Disallows sticking binary operators to the right.
+  "requireSpaceAfterBinaryOperators": true,
+
+  //Requires space before and/or after ? or : in conditional expressions.
+  //"requireSpacesInConditionalExpression": true,
+
+  //Requires space before block statements (for loops, control structures).
+  //"requireSpaceBeforeBlockStatements": true,
+
+  //Requires placing line feed at file end.
+  //"requireLineFeedAtFileEnd": true,
+
+  //"requireSpacesInFunctionExpression": {
+  //    "beforeOpeningCurlyBrace": true
+  //},
+
+  //"disallowSpacesInAnonymousFunctionExpression": {
+  //  "beforeOpeningRoundBrace": false
+  //},
+
+  //Requires space after opening object curly brace and before closing.
+  //"requireSpacesInsideObjectBrackets": "all",
+
+  // disabled until consensus can be formed
+  // "disallowSpacesInsideArrayBrackets": "all",
+  //"disallowSpacesInsideParentheses": true,
+
+  "disallowNewlineBeforeBlockStatements": true
+  //"validateQuoteMarks": "'"
+}
